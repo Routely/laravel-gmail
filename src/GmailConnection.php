@@ -136,7 +136,7 @@ class GmailConnection extends Google_Client
 	public function setBothAccessToken($token)
 	{
 		$this->setAccessToken($token);
-		$this->saveAccessToken($token);
+		//$this->saveAccessToken($token);
 	}
 
 	/**
